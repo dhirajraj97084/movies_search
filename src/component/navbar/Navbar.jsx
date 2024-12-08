@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div>
+    <div className='top-0 sticky'>
       <div className="main">
-        <div className=" flex flex-wrap md:justify-between items-center space-x-4 px-10 py-4 bg-blue-600 text-white shadow-md ">
+        <div className=" flex flex-wrap justify-between items-center space-x-4 px-10 py-4 bg-[#3730a3] text-white shadow-md ">
             {/* left */}
-            <div className="left">
-              <div className="logo">
-
-              </div>
-              <div className="heading">
-                <h1 className='text-xl font-bold flex justify-center cursor-pointer'>MoviesMasala</h1>
+            <div className="left mx-auto md:mx-0 pb-2 md:mb-0">
+              {/* <div className="logo">
+                  
+              </div> */}
+              <div className="heading ">
+                <h1 className='text-xl font-bold cursor-pointer'>MoviesMasala</h1>
               </div>
             </div>
             {/* right */}
